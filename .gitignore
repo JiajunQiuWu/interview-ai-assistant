@@ -1,0 +1,34 @@
+# Entorno y configuración local
+.venv/
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+
+# Django y herramientas
+*.log
+.coverage
+htmlcov/
+
+# Datos locales y generados
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+data/db.sqlite3
+data/recordings/*
+!data/recordings/.gitkeep
+data/models/
+data/vector_store/*
+!data/vector_store/.gitkeep
+data/imports/*
+!data/imports/.gitkeep
+data/cv/
+data/personal/
+data/private/
